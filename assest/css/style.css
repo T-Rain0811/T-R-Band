@@ -178,11 +178,11 @@ body{
 }
 
 /* Slider */
-#slider{
+#slider img{
   position: relative;
   margin-top: 46.5px;
-  padding-top: 50%;
-  
+  width: 100%;
+  display: block;
 }
 
 #slider .text-content{
