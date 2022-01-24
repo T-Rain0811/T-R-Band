@@ -35,10 +35,6 @@
   padding-right: 8px;
 }
 
-.col-five{
-  width: calc(100% / 5);
-}
-
 .col-third{
   width: calc(100% / 3);
 }
@@ -250,14 +246,19 @@ body{
   font-size: 15px;
 }
 
+#content .member-list-img{
+  transition: 2s;
+}
+
 #content .member-img{
-  margin-top: 15px;
+  margin-top: 20px;
   width: 154px;
   border-radius: 4px;
 }
 
-.img-mem{
-  height:170px;
+#content .member-img:hover{
+  transform: scale(1.2);
+  z-index: 1;
 }
 
 .img-HN{
