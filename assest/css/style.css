@@ -246,14 +246,11 @@ body{
   font-size: 15px;
 }
 
-#content .member-list-img{
-  transition: 2s;
-}
-
 #content .member-img{
   margin-top: 20px;
   width: 154px;
   border-radius: 4px;
+  transition: 0.5s;
 }
 
 #content .member-img:hover{
