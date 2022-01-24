@@ -174,11 +174,11 @@ body{
 }
 
 /* Slider */
-#slider img{
+#slider{
   position: relative;
+  padding-top: 50%;
   margin-top: 46.5px;
-  width: 100%;
-  display: block;
+  background: url('/assest/img/slider/slider1.jpg') top center /cover no-repeat;
 }
 
 #slider .text-content{
@@ -209,9 +209,12 @@ body{
 
 #content .content-section{
   width: 800px;
+  max-width: 100%;
   padding: 64px 0 112px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 #content .section-heading {
@@ -256,10 +259,6 @@ body{
 #content .member-img:hover{
   transform: scale(1.2);
   z-index: 1;
-}
-
-.img-HN{
-  height: 192px;
 }
 
 .tour-section{
